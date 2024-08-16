@@ -1,0 +1,35 @@
+body,html,div,h1,h2,ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgb(214, 255, 255);
+    color: rgb(121, 149, 240);
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+ul {
+    width: 300px;
+    margin: 20px auto;
+    list-style: none;
+}
+.btn-box {
+    text-align: center;
+}
+.btn-box button {
+    background-color: rgb(106, 106, 214);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn-box button:hover {
+    opacity: .7;
+}
